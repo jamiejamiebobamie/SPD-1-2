@@ -26,11 +26,13 @@
     <!-- <div class = "State-Candidates"> -->
     <div class = "Dist1-people">
         <ul>
-            {{#each officials}}
+            {{#each people}}
             <li class="list-group-item">
                 <div class="title">{{this.title}}</div>
                 <div class="name">{{this.name}}</div>
                 <div class="party">{{this.party}}</div>
+                <div class="date">{{this.date}}</div>
+                <div class="website">{{this.website}}</div>
             </li>
             {{/each}}
         </ul>
