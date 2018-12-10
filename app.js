@@ -200,28 +200,35 @@ app.get('/', (req, res) => {
 
 
 
-
 app.get('/District1', (req, res) => {
-    res.render("District1", {officials});
+    d1 = people.slice(0,1);
+    res.render("District1", {d1});
 });
 app.get('/District2', (req, res) => {
-    res.render("District2", {officials});
+    d1 = people.slice(2,3);
+    res.render("District2", {d1});
 });
 app.get('/District3', (req, res) => {
-    res.render("District3", {officials});
+    d1 = people.slice(6,7);
+    res.render("District3", {d1});
 });
 app.get('/District4', (req, res) => {
-    res.render("District4", {officials});
+    d1 = people.slice(1,2);
+    res.render("District4", {d1});
 });
 app.get('/District5', (req, res) => {
-    res.render("District5", {officials});
+    d1 = people.slice(7,8);
+    res.render("District5", {d1});
 });
 app.get('/District6', (req, res) => {
-    res.render("District6", {officials});
+    d1 = people.slice(5,6);
+    res.render("District6", {d1});
 });
 app.get('/District7', (req, res) => {
-    res.render("District7", {officials});
+    d1 = people.slice(3,4);
+    res.render("District7", {d1});
 });
 app.get('/District8', (req, res) => {
-    res.render("District8", {officials});
+    d1 = people.slice(4,5);
+    res.render("District8", {d1});
 });
